@@ -1,0 +1,9 @@
+opencv-python
+Pillow
+numpy
+svgpathtools
+cairosvg
+trimesh
+lxml
+# cadquery         # uncomment for STEP file export (heavier install)
+# build123d        # alternative to cadquery for STEP export
