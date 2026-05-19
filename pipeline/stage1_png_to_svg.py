@@ -29,7 +29,7 @@ def convert_with_vtracer(png_path: Path, svg_path: Path, color_mode: str = "bw")
         "--colormode", color_mode,
         "--mode", "spline",
         "--corner_threshold", "60",
-        "--length_threshold", "4.0",
+        "--segment_length", "4.0",
         "--splice_threshold", "45",
         "--filter_speckle", "4",
     ]
