@@ -5,5 +5,7 @@ svgpathtools
 cairosvg
 trimesh
 lxml
+# vtracer          # pip install vtracer  (Python wheel — crashes on Python 3.12+; use CLI instead)
+#                  # CLI install: cargo install vtracer  OR  download from github.com/visioncortex/vtracer/releases
 # cadquery         # uncomment for STEP file export (heavier install)
 # build123d        # alternative to cadquery for STEP export
